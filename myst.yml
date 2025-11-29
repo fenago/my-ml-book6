@@ -1,0 +1,26 @@
+# MyST configuration for Introduction to Machine Learning with Python
+version: 1
+
+project:
+  title: "Introduction to Machine Learning with Python"
+  description: "This book is an 8 chapter book for BS students in Data Analytics or Data Science.  It is very hands on with lots of coding examples.
+"
+  authors:
+    - name: "Dr. Ernesto Lee"
+  jupyter:
+    lite: true
+
+
+
+site:
+  template: book-theme
+  title: "Introduction to Machine Learning with Python"
+  nav:
+    - file: chapters/chapter-1
+    - file: chapters/chapter-2
+    - file: chapters/chapter-3
+    - file: chapters/chapter-4
+    - file: chapters/chapter-5
+    - file: chapters/chapter-6
+    - file: chapters/chapter-7
+    - file: chapters/chapter-8
